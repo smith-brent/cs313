@@ -1,0 +1,222 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 27, 2014, 9:52:55 AM
+    Author     : brentsmith
+*/
+
+@import url('http://fonts.googleapis.com/css?family=Raleway|Raleway+Dots');
+
+h1 {
+    font-family: "Raleway";
+    font-size: 46px;
+    color: #666666;
+}
+
+h2 {
+    font-family: "Raleway";
+    font-size: 22px;
+    color: #4d4d4d;
+}
+
+p {
+    color: #4d4d4d;
+    font-size: 18px;
+}
+
+header {
+    font-family: "Raleway";
+    font-size: 16px;
+}
+
+header ul {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    background-color: #4d4d4d;
+    border: 0px solid;
+    border-radius: 5px;
+    width:100%;
+}
+
+header ul ul {
+    display: none;
+}
+
+header ul li:hover > ul {
+    display: block;
+}
+
+header ul li:hover > ul { margin: 0px; padding: 0px; }
+header ul li:hover > ul li { float:none; display: block; }
+header ul li:hover > ul li a { color:#ffffff; min-width:50px; }
+header ul li:hover > ul li a:hover { color:#989a4a; }
+
+
+header ul li { position: relative;}
+header ul li ul { position: absolute; top: 26px; left: 0px; }
+
+footer {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+    list-style-type: none;
+    text-align: center;
+    margin:0;
+    padding:0;
+}
+
+header li {
+    display: inline;
+}
+
+footer li {
+    display: inline;
+}
+
+header a, footer a {
+    display: inline-block;
+    padding:20px;
+    width: 80px;
+    text-decoration: none;
+}
+
+header a:link {color: cornflowerblue;}      /* unvisited link */
+header a:visited {color: cornflowerblue;}  /* visited link */
+header a:hover {color: #ffffff;}  /* mouse over link */
+header a:active {color: cornflowerblue;}  /* selected link */ 
+
+footer ul {
+    list-style-type: none;
+}
+
+.homepic {
+	text-align:center;
+    margin-top:0px;
+    margin-bottom:0px;
+    padding:0px;
+    width: 600;
+}
+
+.standard {
+    padding-top: 20px;
+    padding-bottom: 25px;
+    padding-left: 40px;
+    padding-right: 40px;
+    
+}
+
+
+form    {
+background: -webkit-gradient(linear, bottom, left 175px, from(#CCCCCC), to(#EEEEEE));
+background: -moz-linear-gradient(bottom, #CCCCCC, #EEEEEE 175px);
+background: -webkit-linear-gradient(top, #CCCCCC 0%,#EEEEEE 100%);
+margin:auto;
+position:relative;
+width:420px;
+height:500px;
+font-family: "Raleway";
+font-size: 16px;
+line-height: 24px;
+color: #4d4d4d;
+text-decoration: none;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+padding:10px;
+border: 1px solid #999;
+/*border: inset 1px solid #333;*/
+-webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+-moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+}
+
+input {
+width:375px;
+display:block;
+border: 1px solid #999;
+/*border: 1px solid #4d4d4d;*/
+height: 25px;
+margin-bottom: 4px;
+-webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+-moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+}
+
+textarea#feedback {
+width:375px;
+height:150px;
+display:block;
+}
+
+input.button {
+cursor:pointer;
+padding:3px 25px;
+margin-right: 20px;
+background:#35b128;
+border:1px solid #33842a;
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+border-radius: 10px;
+-webkit-box-shadow: 0 0 4px rgba(0,0,0, .75);
+-moz-box-shadow: 0 0 4px rgba(0,0,0, .75);
+box-shadow: 0 0 4px rgba(0,0,0, .75);
+color:#f3f3f3;
+font-size:14px;
+font-family:"Raleway";
+width:100px;
+position:absolute;
+right:20px;
+bottom:20px;
+/*background:#e3e1f0;
+color:#4d4d4d;
+font-size:14px;
+font-family:"Raleway";
+height:30px;
+-webkit-border-radius: 15px;
+-moz-border-radius: 15px;
+border-radius: 15px;
+border: 1px solid #999;*/
+}
+
+input.button:hover, input.button:focus {
+background-color :#399630; 
+-webkit-box-shadow: 0 0 1px rgba(0,0,0, .75);
+-moz-box-shadow: 0 0 1px rgba(0,0,0, .75);
+box-shadow: 0 0 1px rgba(0,0,0, .75);
+/*background: #4d4d4d;
+color: #fff;
+-webkit-box-shadow: 0 0 1px rgba(0,0,0, .75);
+-moz-box-shadow: 0 0 1px rgba(0,0,0, .75);
+box-shadow: 0 0 1px rgba(0,0,0, .75);*/
+}
+
+textarea:focus, input:focus {
+border: 2px solid #4d4d4d;
+-webkit-box-shadow: 0 0 1px rgba(0,0,0, .75);
+-moz-box-shadow: 0 0 1px rgba(0,0,0, .75);
+box-shadow: 0 0 1px rgba(0,0,0, .75);
+color: steelblue;
+font-size: 14px;
+}
+
+::-webkit-input-placeholder {
+   color: #4d4d4d;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #4d4d4d;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #4d4d4d;
+}
+
+:-ms-input-placeholder {  
+   color: #4d4d4d;
+}
