@@ -18,6 +18,10 @@
 
 <main class="standard">
 	<h1>Assignments</h1>
+	
+	<ul>
+	<li><a href="/assignments/survey/">Survey</a></li>
+	</ul>
 
 
 </main>
