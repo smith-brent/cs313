@@ -16,9 +16,8 @@
 	<?php include $_SERVER['DOCUMENT_ROOT'].'/modules/header.php'; ?>
 </header>
 
-	<div class="un-banner">
-		<h1 id="top-banner-text">About Me</h1>
-	</div>
+<h1 id="top-banner-text">About Me</h1>
+
 
 <main class="standard">
 	

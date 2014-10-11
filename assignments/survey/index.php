@@ -112,6 +112,8 @@ Apple<br>
 Android<br>
 <input type="radio" name="vote" value="2" onclick="getVote(this.value)">
 Other<br>
+<br>
+<input type="button" value="View Results" onclick="getVote(this.value)">
 </form>
 </div>
 
@@ -126,7 +128,9 @@ Other<br>
 <input type="radio" name="vote2" value="2" onclick="getVoteP2(this.value)">
 400-599<br>
 <input type="radio" name="vote2" value="3" onclick="getVoteP2(this.value)">
-600+
+600+<br>
+<br>
+<input type="button" value="View Results" onclick="getVoteP2(this.value)">
 </form>
 </div>
 
@@ -137,7 +141,9 @@ Other<br>
 <input type="radio" name="vote3" value="0" onclick="getVoteP3(this.value)">
 Apple<br>
 <input type="radio" name="vote3" value="1" onclick="getVoteP3(this.value)">
-Android
+Android<br>
+<br>
+<input type="button" value="View Results" onclick="getVoteP3(this.value)">
 </form>
 </div>
 
@@ -154,7 +160,9 @@ Sprint<br>
 <input type="radio" name="vote4" value="3" onclick="getVoteP4(this.value)">
 T-Mobile<br>
 <input type="radio" name="vote4" value="4" onclick="getVoteP4(this.value)">
-Other
+Other<br>
+<br>
+<input type="button" value="View Results" onclick="getVoteP4(this.value)">
 </form>
 </div>
 
@@ -168,7 +176,9 @@ Other
 <input type="radio" name="vote5" value="2" onclick="getVoteP5(this.value)">
 26-35<br>
 <input type="radio" name="vote5" value="3" onclick="getVoteP5(this.value)">
-36+
+36+<br>
+<br>
+<input type="button" value="View Results" onclick="getVoteP5(this.value)">
 </form>
 </div>
 </div>

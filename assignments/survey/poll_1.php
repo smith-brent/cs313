@@ -1,4 +1,6 @@
 <?php
+session_start();
+
 $vote = $_REQUEST['vote'];
 
 //get content of textfile
