@@ -16,11 +16,21 @@
 	<?php include $_SERVER['DOCUMENT_ROOT'].'/modules/header.php'; ?>
 </header>
 
+<h1 id="top-banner-text">Assignments</h1>
+
+
 <main class="standard">
-	<h1>Assignments</h1>
+
+<h2>Completed Assignments for CS 313</h2>
 	
 	<ul>
-	<li><a href="/assignments/survey/">Survey</a></li>
+		<li><a class="link" href="/assignments/survey/">Survey Assignment</a></li>
+	</ul>
+	
+<h2>Team Assignments</h2>
+
+	<ul>
+		<li><a class="link" href="/assignments/team-readiness/">Team Readiness Activity #1</a></li>
 	</ul>
 
 

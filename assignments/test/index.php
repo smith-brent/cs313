@@ -101,8 +101,6 @@ function getVoteP5(int) {
 <main class="standard">
 
 <div class="outline">
-
-<h1>PHP Survey</h1>
 <div id="poll">
 <h3>If you currently own one of the two, which do you own?</h3>
 <form>

@@ -10,21 +10,47 @@ and open the template in the editor.
 
 @import url('http://fonts.googleapis.com/css?family=Raleway|Raleway+Dots');
 
-h1 {
-    font-family: "Raleway";
-    font-size: 46px;
-    color: #666666;
+h1 {font-family: "Raleway";font-size: 34px;color: #ffffff;}
+h2 {font-family: "Raleway";font-size: 22px;color: #ffffff;}
+h3 {color: #ffffff;}
+p {font-size: 18px;color: #ffffff;}
+
+
+#top-banner-text {
+	padding-left: 40px;
 }
 
-h2 {
-    font-family: "Raleway";
-    font-size: 22px;
-    color: #4d4d4d;
+td {
+	color: #ffffff;
 }
 
-p {
-    color: #4d4d4d;
-    font-size: 18px;
+#form {
+	color: cornflowerblue;
+}
+
+
+.un-banner {
+	
+	background-image: url('/images/background_header.png');
+    list-style-type: none;
+    margin: 0px;
+    text-align: left;
+    padding-top: .5px;
+    padding-bottom: .5px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.link{
+	text-decoration: underline;
+	font-family: "Trade Gothic", 'regular';
+    font-size: 16px;
+    color: #ffffff;
+}
+
+body {
+    background-image: url('/images/background-black.jpg');
+    margin: 0 auto;
 }
 
 header {
@@ -34,15 +60,15 @@ header {
 
 header ul {
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 18px;
+    font-size: 14px;
+    background-color: cornflowerblue;
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    margin: 0px;
     text-align: left;
-    background-color: #4d4d4d;
-    border: 0px solid;
-    border-radius: 5px;
-    width:100%;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
 header ul ul {
@@ -55,20 +81,24 @@ header ul li:hover > ul {
 
 header ul li:hover > ul { margin: 0px; padding: 0px; }
 header ul li:hover > ul li { float:none; display: block; }
-header ul li:hover > ul li a { color:#ffffff; min-width:50px; }
+header ul li:hover > ul li a { color:#4d4d4d; min-width:50px; }
 header ul li:hover > ul li a:hover { color:#989a4a; }
 
 
 header ul li { position: relative;}
 header ul li ul { position: absolute; top: 26px; left: 0px; }
 
-footer {
+footer ul {
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 18px;
-    list-style-type: none;
+    font-size: 14px;
     text-align: center;
-    margin:0;
-    padding:0;
+    background-image: url('/images/background_header.png');
+    list-style-type: none;
+    margin: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
 header li {
@@ -77,132 +107,53 @@ header li {
 
 footer li {
     display: inline;
+    color: #ffffff;
 }
 
 header a, footer a {
     display: inline-block;
-    padding:20px;
     width: 80px;
     text-decoration: none;
 }
 
-header a:link {color: cornflowerblue;}      /* unvisited link */
-header a:visited {color: cornflowerblue;}  /* visited link */
-header a:hover {color: #ffffff;}  /* mouse over link */
-header a:active {color: cornflowerblue;}  /* selected link */ 
-
-footer ul {
-    list-style-type: none;
-}
+header a:link {color: #ffffff;}      /* unvisited link */
+header a:visited {color: #ffffff;}  /* visited link */
+header a:hover {color: #000000;}  /* mouse over link */
+header a:active {color: #ffffff;}  /* selected link */ 
 
 .homepic {
 	text-align:center;
-    margin-top:0px;
-    margin-bottom:0px;
-    padding:0px;
-    width: 600;
+    margin-top:30px;
+    margin-bottom:20px;
 }
 
-.standard {
-    padding-top: 20px;
-    padding-bottom: 25px;
-    padding-left: 40px;
-    padding-right: 40px;
-    
+.standard{
+	margin-top: 20px;
+    margin-bottom: 25px;
+    margin-left: 60px;
+    margin-right: 60px;
+	min-height: 650px;
 }
 
-
-form    {
-background: -webkit-gradient(linear, bottom, left 175px, from(#CCCCCC), to(#EEEEEE));
-background: -moz-linear-gradient(bottom, #CCCCCC, #EEEEEE 175px);
-background: -webkit-linear-gradient(top, #CCCCCC 0%,#EEEEEE 100%);
-margin:auto;
-position:relative;
-width:420px;
-height:500px;
-font-family: "Raleway";
-font-size: 16px;
-line-height: 24px;
-color: #4d4d4d;
-text-decoration: none;
--webkit-border-radius: 10px;
--moz-border-radius: 10px;
-border-radius: 10px;
-padding:10px;
-border: 1px solid #999;
-/*border: inset 1px solid #333;*/
--webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
--moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+.form {
+	background-color: #ccc;
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px;
+	border: 2px solid;
+    border-radius: 25px;
+    font-family: "Raleway";
+    font-size: 14px;
 }
 
-input {
-width:375px;
-display:block;
-border: 1px solid #999;
-/*border: 1px solid #4d4d4d;*/
-height: 25px;
-margin-bottom: 4px;
--webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
--moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+form {
+	color: #ffffff;
 }
 
-textarea#feedback {
-width:375px;
-height:150px;
-display:block;
-}
-
-input.button {
-cursor:pointer;
-padding:3px 25px;
-margin-right: 20px;
-background:#35b128;
-border:1px solid #33842a;
--moz-border-radius: 10px;
--webkit-border-radius: 10px;
-border-radius: 10px;
--webkit-box-shadow: 0 0 4px rgba(0,0,0, .75);
--moz-box-shadow: 0 0 4px rgba(0,0,0, .75);
-box-shadow: 0 0 4px rgba(0,0,0, .75);
-color:#f3f3f3;
-font-size:14px;
-font-family:"Raleway";
-width:100px;
-position:absolute;
-right:20px;
-bottom:20px;
-/*background:#e3e1f0;
-color:#4d4d4d;
-font-size:14px;
-font-family:"Raleway";
-height:30px;
--webkit-border-radius: 15px;
--moz-border-radius: 15px;
-border-radius: 15px;
-border: 1px solid #999;*/
-}
-
-input.button:hover, input.button:focus {
-background-color :#399630; 
--webkit-box-shadow: 0 0 1px rgba(0,0,0, .75);
--moz-box-shadow: 0 0 1px rgba(0,0,0, .75);
-box-shadow: 0 0 1px rgba(0,0,0, .75);
-/*background: #4d4d4d;
-color: #fff;
--webkit-box-shadow: 0 0 1px rgba(0,0,0, .75);
--moz-box-shadow: 0 0 1px rgba(0,0,0, .75);
-box-shadow: 0 0 1px rgba(0,0,0, .75);*/
-}
-
-textarea:focus, input:focus {
-border: 2px solid #4d4d4d;
--webkit-box-shadow: 0 0 1px rgba(0,0,0, .75);
--moz-box-shadow: 0 0 1px rgba(0,0,0, .75);
-box-shadow: 0 0 1px rgba(0,0,0, .75);
-color: steelblue;
-font-size: 14px;
+.survey {
+	font-family: "Raleway";
+    font-size: 18px;
 }
 
 ::-webkit-input-placeholder {
@@ -220,3 +171,22 @@ font-size: 14px;
 :-ms-input-placeholder {  
    color: #4d4d4d;
 }
+
+.outline{
+    border-style: solid;
+    border-width: 3px;
+    border-color: #ffffff;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    padding:10px;
+    margin-top:40px;
+    margin-bottom:40px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    -webkit-box-shadow: 0px 0px 15px rgba(255,255,255,0.5);
+    -moz-box-shadow: 0px 0px 15px rgba(255,255,255,0.5);
+    box-shadow: 0px 0px 15px rgba(255,255,255,0.5);
+}
+

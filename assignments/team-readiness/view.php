@@ -3,14 +3,20 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>Title</title>
+  <link rel="stylesheet" type="text/css" href="/css/main.css" media="screen">
+  <title>Team Readiness Activity</title>
   
 
 </head>
 <body class="front-page">
 <header>
-	<h1>HTML Form</h1>
+	<?php include $_SERVER['DOCUMENT_ROOT'].'/modules/header.php'; ?>
 </header>
+
+<h1 id="top-banner-text">Team Readiness Activity</h1>
+
+<main class="standard">
+	<h2>HTML Form</h2>
     <section class='container'>
       <?php if(empty($name)): ?>
     	<form action="." method="post">
@@ -40,6 +46,12 @@
         endif;
     ?>
     </section>
+</main>
+    
+    
+    <footer>
+    		<?php include $_SERVER['DOCUMENT_ROOT'].'/modules/footer.php'; ?>
+    </footer>
 
 
 </body>

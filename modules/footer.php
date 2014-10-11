@@ -1,1 +1,3 @@
-<p>Design &COPY; Brent Smith 2014</p> 
+<ul>
+    <li>Design &COPY; Brent Smith 2014</li>
+</ul>
