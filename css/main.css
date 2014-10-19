@@ -49,7 +49,7 @@ td {
 }
 
 body {
-    background-image: url('/images/background-black.jpg');
+    background-image: url('/images/background-dark.jpg');
     margin: 0 auto;
 }
 
@@ -103,6 +103,7 @@ footer ul {
 
 header li {
     display: inline;
+    margin-right: 40px;
 }
 
 footer li {
@@ -112,7 +113,7 @@ footer li {
 
 header a, footer a {
     display: inline-block;
-    width: 80px;
+    /*width: 100px;*/
     text-decoration: none;
 }
 
@@ -149,6 +150,29 @@ header a:active {color: #ffffff;}  /* selected link */
 
 form {
 	color: #ffffff;
+}
+
+input.button{
+	width:100px;
+	height:30px;
+	background:cornflowerblue;
+	color:#ffffff;
+	font-size:14px;
+	font-family: Tahoma, Geneva, sans-serif;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	border: 1px solid #ffffff;
+	margin-top:20px;
+} 
+
+input.button:hover {
+	background:cornflowerblue;
+	color: #4d4d4d;
+	border: none;
+	-webkit-box-shadow: 0 0 1px rgba(0,0,0, .75);
+	-moz-box-shadow: 0 0 1px rgba(0,0,0, .75);
+	box-shadow: 0 0 1px rgba(0,0,0, .75);
 }
 
 .survey {

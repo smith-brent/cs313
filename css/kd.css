@@ -1,0 +1,244 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 27, 2014, 9:52:55 AM
+    Author     : brentsmith
+*/
+
+@import url('http://fonts.googleapis.com/css?family=Raleway|Raleway+Dots');
+
+body {
+    margin: 0 auto;
+}
+
+main.standard {
+	margin-top: 20px;
+    margin-bottom: 25px;
+    margin-left: 80px;
+    margin-right: 80px;
+	min-height: 650px;
+}
+
+.homepic img {
+	display: block;
+	margin:0;
+    margin-left: auto;
+    margin-right: auto;
+    padding:0;
+	width:600px;
+}
+
+h1 {font-family: 'Josefin Sans', sans-serif;font-size: 34px;color: #4d4d4d;}
+h2 {font-family: 'Josefin Sans', sans-serif;font-size: 22px;color: #4d4d4d;margin:0;}
+h3 {color: #4d4d4d;}
+p {font-size: 18px;color: #4d4d4d;}
+
+
+.link{
+	text-decoration: underline;
+	font-family: "Trade Gothic", 'regular';
+    font-size: 16px;
+    color: #4d4d4d;
+}
+
+header {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+header ul {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 14px;
+    list-style-type: none;
+    margin: 0px;
+    text-align: center;
+    padding-top: 18px;
+    padding-bottom: 4px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+header ul ul {
+    display: none;
+}
+
+header ul li:hover > ul {
+    display: block;
+}
+
+header ul li:hover > ul { margin: 0px; padding: 0px; }
+header ul li:hover > ul li { float:none; display: block; }
+header ul li:hover > ul li a { color:#4d4d4d; min-width:50px;text-decoration:underline; }
+header ul li:hover > ul li a:hover { color:#989a4a;text-decoration:underline; }
+
+
+header ul li { position: relative;}
+header ul li ul { position: absolute; top: 26px; left: 0px; }
+
+footer ul {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 14px;
+    text-align: center;
+    background-image: url('/images/background_header.png');
+    list-style-type: none;
+    margin: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+header li {
+    display: inline;
+    margin-right: 60px;
+}
+
+footer li {
+    display: inline;
+    color: #ffffff;
+}
+
+header a, footer a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+header a:link {color: #D3D3D3;}      /* unvisited link */
+header a:visited {color: #D3D3D3;}  /* visited link */
+header a:hover {color: #4d4d4d;}  /* mouse over link */
+header a:active {color: #D3D3D3;text-decoration:underline;}  /* selected link */ 
+
+
+
+
+.form {
+	background-color: #ccc;
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px;
+	border: 2px solid;
+    border-radius: 25px;
+    font-family: "Raleway";
+    font-size: 14px;
+}
+
+form {
+	color: #4d4d4d;
+}
+
+input.button{
+	width:100px;
+	height:30px;
+	background:cornflowerblue;
+	color:#ffffff;
+	font-size:14px;
+	font-family: Tahoma, Geneva, sans-serif;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	border: 1px solid #ffffff;
+	margin-top:20px;
+} 
+
+input.button:hover {
+	background:cornflowerblue;
+	color: #4d4d4d;
+	border: none;
+	-webkit-box-shadow: 0 0 1px rgba(0,0,0, .75);
+	-moz-box-shadow: 0 0 1px rgba(0,0,0, .75);
+	box-shadow: 0 0 1px rgba(0,0,0, .75);
+}
+
+.homebutton {
+	width:30px;
+	height: 80px;
+	background:cornflowerblue;
+	color:#ffffff;
+	font-size:14px;
+	font-family: Tahoma, Geneva, sans-serif;
+	position: absolute;
+	top:100px;
+	left:0;
+	-webkit-border-radius: 0 5px 5px 0;
+    -moz-border-radius: 0 5px 5px 0;
+    border-radius: 0 5px 5px 0;
+}
+
+.homebutton:hover {
+	background:cornflowerblue;
+	color: #4d4d4d;
+	border: none;
+	-webkit-box-shadow: 0 0 1px rgba(0,0,0, .75);
+	-moz-box-shadow: 0 0 1px rgba(0,0,0, .75);
+	box-shadow: 0 0 1px rgba(0,0,0, .75);
+}
+
+.homebutton p {
+	-webkit-transform: rotate(90deg); 
+	-moz-transform: rotate(90deg);
+	text-align: center;
+	text-transform: none;
+}
+
+.homebutton a:link {color: #ffffff;}      /* unvisited link */
+.homebutton a:visited {color: #ffffff;}  /* visited link */
+.homebutton a:hover {color: #ffffff;}  /* mouse over link */
+
+
+::-webkit-input-placeholder {
+   color: #4d4d4d;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #4d4d4d;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #4d4d4d;
+}
+
+:-ms-input-placeholder {  
+   color: #4d4d4d;
+}
+
+.outline{
+    border-style: solid;
+    border-width: 1px;
+    border-color: #4d4d4d;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    padding:10px;
+    margin-top:40px;
+    margin-bottom:40px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    -webkit-box-shadow: 0px 0px 10px rgba(255,255,255,0.5);
+    -moz-box-shadow: 0px 0px 10px rgba(255,255,255,0.5);
+    box-shadow: 0px 0px 10px rgba(255,255,255,0.5);
+}
+
+.outline-results{
+    border-style: solid;
+    border-width: 1px;
+    border-color: #4d4d4d;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    padding:10px;
+    margin-top:20px;
+    margin-bottom:20px;
+    margin-left: auto;
+    margin-right: 5px;
+    display:inline-block;
+    -webkit-box-shadow: 0px 0px 10px rgba(255,255,255,0.5);
+    -moz-box-shadow: 0px 0px 10px rgba(255,255,255,0.5);
+    box-shadow: 0px 0px 10px rgba(255,255,255,0.5);
+}
+

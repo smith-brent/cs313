@@ -3,6 +3,7 @@ session_start();
 
 $vote = $_REQUEST['vote'];
 
+
 //get content of textfile
 $filename = "p1_result.txt";
 $content = file($filename);
@@ -28,6 +29,7 @@ $insertvote = $apple."||".$android."||".$other;
 $fp = fopen($filename,"w");
 fputs($fp,$insertvote);
 fclose($fp);
+$_SESSION['voted'];
 ?>
 
 <h3>If you currently own one of the two, which do you own?</h3>

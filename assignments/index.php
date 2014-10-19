@@ -30,7 +30,9 @@
 <h2>Team Assignments</h2>
 
 	<ul>
+	
 		<li><a class="link" href="/assignments/team-readiness/">Team Readiness Activity #1</a></li>
+		<li><a class="link" href="/assignments/scriptures/scriptures.php">Team Readiness Activity #2</a></li>
 	</ul>
 
 
