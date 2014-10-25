@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   	<meta charset="utf-8">
@@ -16,26 +16,29 @@
 	<?php include $_SERVER['DOCUMENT_ROOT'].'/modules/header.php'; ?>
 </header>
 
-<h1 id="top-banner-text">Assignments</h1>
-
-
 <main class="standard">
 
-<h2>Completed Assignments for CS 313</h2>
-	
-	<ul>
-		<li><a class="link" href="/assignments/survey/">Survey Assignment</a></li>
-	</ul>
-	
-<h2>Team Assignments</h2>
+<?php
+include 'dbConnection.php';
+echo '<br><br><br><br><h2>Scripture Master List</h2>';
+$db = loadDB();
+$book = $_POST['book'];
+$chapter = $_POST['chapter'];
+//Display all scriptures
+if ($book == '')
+{
+$stmt = $db->query("SELECT * FROM scriptures");
+while($row = $stmt->fetch(PDO::FETCH_ASSOC))
+{
+echo '<strong>' . $row['book'].' '.$row['chapter'] . ':' . $row['verse'] . '</strong>' .' - "'. $row['content'] . '"' . "<br>";
+}
+}
 
-	<ul>
-	
-		<li><a class="link" href="/assignments/team-readiness/">Team Readiness Activity #1</a></li>
-		<li><a class="link" href="/assignments/scriptures/scriptures.php">Team Readiness Activity #2</a></li>
-		<li><a class="link" href="/assignments/topics/">Team Readiness Activity #3</a></li>
-	</ul>
-
+?>
+<form action="index.php" method="POST" >
+<br/>
+<input class="button" type="submit" value="Back">
+</form> 
 
 </main>
 

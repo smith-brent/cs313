@@ -1,4 +1,8 @@
-<!doctype html>
+<?php
+// Start the session
+session_start();
+?>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   	<meta charset="utf-8">
@@ -16,26 +20,19 @@
 	<?php include $_SERVER['DOCUMENT_ROOT'].'/modules/header.php'; ?>
 </header>
 
-<h1 id="top-banner-text">Assignments</h1>
-
-
 <main class="standard">
 
-<h2>Completed Assignments for CS 313</h2>
-	
-	<ul>
-		<li><a class="link" href="/assignments/survey/">Survey Assignment</a></li>
-	</ul>
-	
-<h2>Team Assignments</h2>
+<h1>Add Scripture</h1>
+<form action="insert.php" method="post">
+Book: <input type="text" name="book">
+Chapter: <input type="number" name="chapter">
+Verse: <input type="number" name="verse">
+Content: <input type="text" name="content">
+<br/><br />
+Topics:<br><br />
 
-	<ul>
-	
-		<li><a class="link" href="/assignments/team-readiness/">Team Readiness Activity #1</a></li>
-		<li><a class="link" href="/assignments/scriptures/scriptures.php">Team Readiness Activity #2</a></li>
-		<li><a class="link" href="/assignments/topics/">Team Readiness Activity #3</a></li>
-	</ul>
-
+<input class="button" type="submit">
+</form>
 
 </main>
 

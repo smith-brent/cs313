@@ -224,6 +224,37 @@ input.button:hover {
     box-shadow: 0px 0px 10px rgba(255,255,255,0.5);
 }
 
+.login-outline{
+    border-style: solid;
+    border-width: 1px;
+    border-color: #4d4d4d;
+    margin: auto;
+    margin-top:20px;
+    padding:10px;
+    position: relative;
+	width: 300px;
+	height: 260px;
+	-webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+	-webkit-box-shadow: 0px 0px 10px rgba(255,255,255,0.5);
+    -moz-box-shadow: 0px 0px 10px rgba(255,255,255,0.5);
+    box-shadow: 0px 0px 10px rgba(255,255,255,0.5);
+}
+
+.login-outline h1 {
+	text-align: center;
+}
+
+.login-outline p {
+	font-size: 10px;
+}
+
+.login-outline form {
+	text-align: center;
+}
+
+
 .outline-results{
     border-style: solid;
     border-width: 1px;

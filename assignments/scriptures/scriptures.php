@@ -12,7 +12,7 @@ session_start();
   
 
 </head>
-<body class="front-page">
+<body>
 <header>
 	<?php include $_SERVER['DOCUMENT_ROOT'].'/modules/header.php'; ?>
 </header>
@@ -30,7 +30,6 @@ Book: <select name="book">
 <br/><br/>
 <input class="button" type="submit" value="Submit">
 </form>
-
 
 	
 </main>

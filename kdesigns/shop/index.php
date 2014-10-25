@@ -14,9 +14,6 @@ session_start();
 </head>
 <body class="front-page">
 <header>
-		<div class="homebutton">
-		<p><a href="/">Home</a><p>
-		</div>
 	<?php include $_SERVER['DOCUMENT_ROOT'].'/modules/kd-header.php'; ?>
 	<div class="homepic">
 		<img src="/kdesigns/images/header-01.png" alt="KDesigns Studio Logo">
@@ -45,8 +42,6 @@ Products: <select name="type">
 <input class="button" type="submit" value="Submit">
 </form>
 </div>
-
-
 	
 </main>
     
